@@ -1,0 +1,15 @@
+{
+  "resource_pack_name": "Super MegaCraft",
+  "texture_name": "atlas.items",
+  "texture_data": {
+    "supermegacraft_fuel_can": {
+      "textures": "textures/items/supermegacraft_fuel_can"
+    },
+    "supermegacraft_mega_wand": {
+      "textures": "textures/items/supermegacraft_mega_wand"
+    },
+    "supermegacraft_flight_stick": {
+      "textures": "textures/items/supermegacraft_flight_stick"
+    }
+  }
+}

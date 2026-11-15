@@ -1,0 +1,26 @@
+{
+  "format_version": "1.21.40",
+  "minecraft:block": {
+    "description": {
+      "identifier": "supermegacraft:armor_plate",
+      "menu_category": {
+        "category": "construction"
+      }
+    },
+    "components": {
+      "minecraft:display_name": "tile.supermegacraft:armor_plate.name",
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 2
+      },
+      "minecraft:destructible_by_explosion": {
+        "explosion_resistance": 30
+      },
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "supermegacraft_armor_plate",
+          "render_method": "opaque"
+        }
+      }
+    }
+  }
+}

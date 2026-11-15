@@ -1,0 +1,35 @@
+{
+  "format_version": "1.21.40",
+  "minecraft:block": {
+    "description": {
+      "identifier": "supermegacraft:radar_dish",
+      "menu_category": {
+        "category": "construction"
+      }
+    },
+    "components": {
+      "minecraft:display_name": "tile.supermegacraft:radar_dish.name",
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 0.8
+      },
+      "minecraft:destructible_by_explosion": {
+        "explosion_resistance": 8
+      },
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "supermegacraft_radar_side",
+          "render_method": "opaque"
+        },
+        "up": {
+          "texture": "supermegacraft_radar_top",
+          "render_method": "opaque"
+        },
+        "down": {
+          "texture": "supermegacraft_radar_bottom",
+          "render_method": "opaque"
+        }
+      },
+      "minecraft:light_emission": 3
+    }
+  }
+}

@@ -1,0 +1,139 @@
+{
+  "format_version": "1.21.40",
+  "minecraft:block": {
+    "description": {
+      "identifier": "supermegacraft:fuel_tank",
+      "menu_category": {
+        "category": "construction"
+      },
+      "states": {
+        "supermegacraft:used": {
+          "values": {
+            "min": 0,
+            "max": 4
+          }
+        }
+      }
+    },
+    "components": {
+      "minecraft:display_name": "tile.supermegacraft:fuel_tank.name",
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 0.8
+      },
+      "minecraft:destructible_by_explosion": {
+        "explosion_resistance": 8
+      },
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "supermegacraft_tank_0",
+          "render_method": "opaque"
+        },
+        "up": {
+          "texture": "supermegacraft_tank_top",
+          "render_method": "opaque"
+        },
+        "down": {
+          "texture": "supermegacraft_tank_top",
+          "render_method": "opaque"
+        }
+      }
+    },
+    "permutations": [
+      {
+        "condition": "q.block_state('supermegacraft:used') == 0",
+        "components": {
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "supermegacraft_tank_0",
+              "render_method": "opaque"
+            },
+            "up": {
+              "texture": "supermegacraft_tank_top",
+              "render_method": "opaque"
+            },
+            "down": {
+              "texture": "supermegacraft_tank_top",
+              "render_method": "opaque"
+            }
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('supermegacraft:used') == 1",
+        "components": {
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "supermegacraft_tank_1",
+              "render_method": "opaque"
+            },
+            "up": {
+              "texture": "supermegacraft_tank_top",
+              "render_method": "opaque"
+            },
+            "down": {
+              "texture": "supermegacraft_tank_top",
+              "render_method": "opaque"
+            }
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('supermegacraft:used') == 2",
+        "components": {
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "supermegacraft_tank_2",
+              "render_method": "opaque"
+            },
+            "up": {
+              "texture": "supermegacraft_tank_top",
+              "render_method": "opaque"
+            },
+            "down": {
+              "texture": "supermegacraft_tank_top",
+              "render_method": "opaque"
+            }
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('supermegacraft:used') == 3",
+        "components": {
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "supermegacraft_tank_3",
+              "render_method": "opaque"
+            },
+            "up": {
+              "texture": "supermegacraft_tank_top",
+              "render_method": "opaque"
+            },
+            "down": {
+              "texture": "supermegacraft_tank_top",
+              "render_method": "opaque"
+            }
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('supermegacraft:used') == 4",
+        "components": {
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "supermegacraft_tank_4",
+              "render_method": "opaque"
+            },
+            "up": {
+              "texture": "supermegacraft_tank_top",
+              "render_method": "opaque"
+            },
+            "down": {
+              "texture": "supermegacraft_tank_top",
+              "render_method": "opaque"
+            }
+          }
+        }
+      }
+    ]
+  }
+}

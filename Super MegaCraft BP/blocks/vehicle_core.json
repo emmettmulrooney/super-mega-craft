@@ -1,0 +1,35 @@
+{
+  "format_version": "1.21.40",
+  "minecraft:block": {
+    "description": {
+      "identifier": "supermegacraft:vehicle_core",
+      "menu_category": {
+        "category": "construction"
+      }
+    },
+    "components": {
+      "minecraft:display_name": "tile.supermegacraft:vehicle_core.name",
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 0.8
+      },
+      "minecraft:destructible_by_explosion": {
+        "explosion_resistance": 8
+      },
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "supermegacraft_core_side",
+          "render_method": "opaque"
+        },
+        "up": {
+          "texture": "supermegacraft_core_top",
+          "render_method": "opaque"
+        },
+        "down": {
+          "texture": "supermegacraft_core_top",
+          "render_method": "opaque"
+        }
+      },
+      "minecraft:light_emission": 4
+    }
+  }
+}

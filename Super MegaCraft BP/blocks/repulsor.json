@@ -1,0 +1,62 @@
+{
+  "format_version": "1.21.40",
+  "minecraft:block": {
+    "description": {
+      "identifier": "supermegacraft:repulsor",
+      "menu_category": {
+        "category": "construction"
+      },
+      "states": {
+        "supermegacraft:lit": [
+          false,
+          true
+        ]
+      }
+    },
+    "components": {
+      "minecraft:display_name": "tile.supermegacraft:repulsor.name",
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 0.8
+      },
+      "minecraft:destructible_by_explosion": {
+        "explosion_resistance": 8
+      },
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "supermegacraft_repulsor_side",
+          "render_method": "opaque"
+        },
+        "up": {
+          "texture": "supermegacraft_repulsor_top",
+          "render_method": "opaque"
+        },
+        "down": {
+          "texture": "supermegacraft_repulsor_pad",
+          "render_method": "opaque"
+        }
+      }
+    },
+    "permutations": [
+      {
+        "condition": "q.block_state('supermegacraft:lit')",
+        "components": {
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "supermegacraft_repulsor_side",
+              "render_method": "opaque"
+            },
+            "up": {
+              "texture": "supermegacraft_repulsor_top",
+              "render_method": "opaque"
+            },
+            "down": {
+              "texture": "supermegacraft_repulsor_pad_on",
+              "render_method": "opaque"
+            }
+          },
+          "minecraft:light_emission": 12
+        }
+      }
+    ]
+  }
+}

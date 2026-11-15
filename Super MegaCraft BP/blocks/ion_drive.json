@@ -1,0 +1,278 @@
+{
+  "format_version": "1.21.40",
+  "minecraft:block": {
+    "description": {
+      "identifier": "supermegacraft:ion_drive",
+      "menu_category": {
+        "category": "construction"
+      },
+      "traits": {
+        "minecraft:placement_direction": {
+          "enabled_states": [
+            "minecraft:cardinal_direction"
+          ],
+          "y_rotation_offset": 0
+        }
+      },
+      "states": {
+        "supermegacraft:lit": [
+          false,
+          true
+        ]
+      }
+    },
+    "components": {
+      "minecraft:display_name": "tile.supermegacraft:ion_drive.name",
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 0.8
+      },
+      "minecraft:destructible_by_explosion": {
+        "explosion_resistance": 8
+      },
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "supermegacraft_ion_side",
+          "render_method": "opaque"
+        },
+        "north": {
+          "texture": "supermegacraft_ion_front",
+          "render_method": "opaque"
+        },
+        "south": {
+          "texture": "supermegacraft_ion_exhaust",
+          "render_method": "opaque"
+        },
+        "up": {
+          "texture": "supermegacraft_ion_side",
+          "render_method": "opaque"
+        },
+        "down": {
+          "texture": "supermegacraft_ion_side",
+          "render_method": "opaque"
+        }
+      }
+    },
+    "permutations": [
+      {
+        "condition": "q.block_state('minecraft:cardinal_direction') == 'north' && !q.block_state('supermegacraft:lit')",
+        "components": {
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "supermegacraft_ion_side",
+              "render_method": "opaque"
+            },
+            "north": {
+              "texture": "supermegacraft_ion_front",
+              "render_method": "opaque"
+            },
+            "south": {
+              "texture": "supermegacraft_ion_exhaust",
+              "render_method": "opaque"
+            },
+            "up": {
+              "texture": "supermegacraft_ion_side",
+              "render_method": "opaque"
+            },
+            "down": {
+              "texture": "supermegacraft_ion_side",
+              "render_method": "opaque"
+            }
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('minecraft:cardinal_direction') == 'north' && q.block_state('supermegacraft:lit')",
+        "components": {
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "supermegacraft_ion_side",
+              "render_method": "opaque"
+            },
+            "north": {
+              "texture": "supermegacraft_ion_front",
+              "render_method": "opaque"
+            },
+            "south": {
+              "texture": "supermegacraft_ion_exhaust_on",
+              "render_method": "opaque"
+            },
+            "up": {
+              "texture": "supermegacraft_ion_side",
+              "render_method": "opaque"
+            },
+            "down": {
+              "texture": "supermegacraft_ion_side",
+              "render_method": "opaque"
+            }
+          },
+          "minecraft:light_emission": 14
+        }
+      },
+      {
+        "condition": "q.block_state('minecraft:cardinal_direction') == 'east' && !q.block_state('supermegacraft:lit')",
+        "components": {
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "supermegacraft_ion_side",
+              "render_method": "opaque"
+            },
+            "east": {
+              "texture": "supermegacraft_ion_front",
+              "render_method": "opaque"
+            },
+            "west": {
+              "texture": "supermegacraft_ion_exhaust",
+              "render_method": "opaque"
+            },
+            "up": {
+              "texture": "supermegacraft_ion_side",
+              "render_method": "opaque"
+            },
+            "down": {
+              "texture": "supermegacraft_ion_side",
+              "render_method": "opaque"
+            }
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('minecraft:cardinal_direction') == 'east' && q.block_state('supermegacraft:lit')",
+        "components": {
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "supermegacraft_ion_side",
+              "render_method": "opaque"
+            },
+            "east": {
+              "texture": "supermegacraft_ion_front",
+              "render_method": "opaque"
+            },
+            "west": {
+              "texture": "supermegacraft_ion_exhaust_on",
+              "render_method": "opaque"
+            },
+            "up": {
+              "texture": "supermegacraft_ion_side",
+              "render_method": "opaque"
+            },
+            "down": {
+              "texture": "supermegacraft_ion_side",
+              "render_method": "opaque"
+            }
+          },
+          "minecraft:light_emission": 14
+        }
+      },
+      {
+        "condition": "q.block_state('minecraft:cardinal_direction') == 'south' && !q.block_state('supermegacraft:lit')",
+        "components": {
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "supermegacraft_ion_side",
+              "render_method": "opaque"
+            },
+            "south": {
+              "texture": "supermegacraft_ion_front",
+              "render_method": "opaque"
+            },
+            "north": {
+              "texture": "supermegacraft_ion_exhaust",
+              "render_method": "opaque"
+            },
+            "up": {
+              "texture": "supermegacraft_ion_side",
+              "render_method": "opaque"
+            },
+            "down": {
+              "texture": "supermegacraft_ion_side",
+              "render_method": "opaque"
+            }
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('minecraft:cardinal_direction') == 'south' && q.block_state('supermegacraft:lit')",
+        "components": {
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "supermegacraft_ion_side",
+              "render_method": "opaque"
+            },
+            "south": {
+              "texture": "supermegacraft_ion_front",
+              "render_method": "opaque"
+            },
+            "north": {
+              "texture": "supermegacraft_ion_exhaust_on",
+              "render_method": "opaque"
+            },
+            "up": {
+              "texture": "supermegacraft_ion_side",
+              "render_method": "opaque"
+            },
+            "down": {
+              "texture": "supermegacraft_ion_side",
+              "render_method": "opaque"
+            }
+          },
+          "minecraft:light_emission": 14
+        }
+      },
+      {
+        "condition": "q.block_state('minecraft:cardinal_direction') == 'west' && !q.block_state('supermegacraft:lit')",
+        "components": {
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "supermegacraft_ion_side",
+              "render_method": "opaque"
+            },
+            "west": {
+              "texture": "supermegacraft_ion_front",
+              "render_method": "opaque"
+            },
+            "east": {
+              "texture": "supermegacraft_ion_exhaust",
+              "render_method": "opaque"
+            },
+            "up": {
+              "texture": "supermegacraft_ion_side",
+              "render_method": "opaque"
+            },
+            "down": {
+              "texture": "supermegacraft_ion_side",
+              "render_method": "opaque"
+            }
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('minecraft:cardinal_direction') == 'west' && q.block_state('supermegacraft:lit')",
+        "components": {
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "supermegacraft_ion_side",
+              "render_method": "opaque"
+            },
+            "west": {
+              "texture": "supermegacraft_ion_front",
+              "render_method": "opaque"
+            },
+            "east": {
+              "texture": "supermegacraft_ion_exhaust_on",
+              "render_method": "opaque"
+            },
+            "up": {
+              "texture": "supermegacraft_ion_side",
+              "render_method": "opaque"
+            },
+            "down": {
+              "texture": "supermegacraft_ion_side",
+              "render_method": "opaque"
+            }
+          },
+          "minecraft:light_emission": 14
+        }
+      }
+    ]
+  }
+}

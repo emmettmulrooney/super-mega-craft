@@ -1,0 +1,135 @@
+{
+  "format_version": "1.21.40",
+  "supermegacraft:mega_table": {
+    "sound": "metal"
+  },
+  "supermegacraft:hull_white": {
+    "sound": "metal"
+  },
+  "supermegacraft:hull_grey": {
+    "sound": "metal"
+  },
+  "supermegacraft:hull_black": {
+    "sound": "metal"
+  },
+  "supermegacraft:hull_red": {
+    "sound": "metal"
+  },
+  "supermegacraft:hull_orange": {
+    "sound": "metal"
+  },
+  "supermegacraft:hull_yellow": {
+    "sound": "metal"
+  },
+  "supermegacraft:hull_blue": {
+    "sound": "metal"
+  },
+  "supermegacraft:hull_green": {
+    "sound": "metal"
+  },
+  "supermegacraft:hull_purple": {
+    "sound": "metal"
+  },
+  "supermegacraft:hull_pink": {
+    "sound": "metal"
+  },
+  "supermegacraft:hull_cyan": {
+    "sound": "metal"
+  },
+  "supermegacraft:hull_lime": {
+    "sound": "metal"
+  },
+  "supermegacraft:hull_brown": {
+    "sound": "metal"
+  },
+  "supermegacraft:hull_light_blue": {
+    "sound": "metal"
+  },
+  "supermegacraft:hull_magenta": {
+    "sound": "metal"
+  },
+  "supermegacraft:hull_light_grey": {
+    "sound": "metal"
+  },
+  "supermegacraft:carbon_hull": {
+    "sound": "metal"
+  },
+  "supermegacraft:armor_plate": {
+    "sound": "metal"
+  },
+  "supermegacraft:decoupler": {
+    "sound": "metal"
+  },
+  "supermegacraft:avionics": {
+    "sound": "metal"
+  },
+  "supermegacraft:missile_pod": {
+    "sound": "metal"
+  },
+  "supermegacraft:radar_dish": {
+    "sound": "metal"
+  },
+  "supermegacraft:vtol_thruster": {
+    "sound": "metal"
+  },
+  "supermegacraft:neutronium_hull": {
+    "sound": "metal"
+  },
+  "supermegacraft:fusion_reactor": {
+    "sound": "metal"
+  },
+  "supermegacraft:warp_drive": {
+    "sound": "metal"
+  },
+  "supermegacraft:shield_generator": {
+    "sound": "metal"
+  },
+  "supermegacraft:super_cannon": {
+    "sound": "metal"
+  },
+  "supermegacraft:titan_thruster": {
+    "sound": "metal"
+  },
+  "supermegacraft:repulsor": {
+    "sound": "metal"
+  },
+  "supermegacraft:window": {
+    "sound": "glass"
+  },
+  "supermegacraft:mega_light": {
+    "sound": "glass"
+  },
+  "supermegacraft:vehicle_core": {
+    "sound": "metal"
+  },
+  "supermegacraft:wing": {
+    "sound": "metal"
+  },
+  "supermegacraft:landing_gear": {
+    "sound": "metal"
+  },
+  "supermegacraft:parachute_pod": {
+    "sound": "cloth"
+  },
+  "supermegacraft:rocket_engine": {
+    "sound": "metal"
+  },
+  "supermegacraft:jet_engine": {
+    "sound": "metal"
+  },
+  "supermegacraft:ion_drive": {
+    "sound": "metal"
+  },
+  "supermegacraft:afterburner": {
+    "sound": "metal"
+  },
+  "supermegacraft:cockpit": {
+    "sound": "metal"
+  },
+  "supermegacraft:capital_bridge": {
+    "sound": "metal"
+  },
+  "supermegacraft:fuel_tank": {
+    "sound": "metal"
+  }
+}

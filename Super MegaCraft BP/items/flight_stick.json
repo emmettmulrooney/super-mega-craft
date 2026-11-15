@@ -1,0 +1,18 @@
+{
+  "format_version": "1.21.40",
+  "minecraft:item": {
+    "description": {
+      "identifier": "supermegacraft:flight_stick",
+      "menu_category": {
+        "category": "equipment"
+      }
+    },
+    "components": {
+      "minecraft:display_name": {
+        "value": "item.supermegacraft:flight_stick"
+      },
+      "minecraft:icon": "supermegacraft_flight_stick",
+      "minecraft:max_stack_size": 1
+    }
+  }
+}

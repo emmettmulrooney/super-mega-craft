@@ -1,0 +1,299 @@
+{
+  "resource_pack_name": "Super MegaCraft",
+  "texture_name": "atlas.terrain",
+  "padding": 8,
+  "num_mip_levels": 4,
+  "texture_data": {
+    "supermegacraft_table_top": {
+      "textures": "textures/blocks/supermegacraft_table_top"
+    },
+    "supermegacraft_table_side": {
+      "textures": "textures/blocks/supermegacraft_table_side"
+    },
+    "supermegacraft_table_bottom": {
+      "textures": "textures/blocks/supermegacraft_table_bottom"
+    },
+    "supermegacraft_hull_white": {
+      "textures": "textures/blocks/supermegacraft_hull_white"
+    },
+    "supermegacraft_hull_grey": {
+      "textures": "textures/blocks/supermegacraft_hull_grey"
+    },
+    "supermegacraft_hull_black": {
+      "textures": "textures/blocks/supermegacraft_hull_black"
+    },
+    "supermegacraft_hull_red": {
+      "textures": "textures/blocks/supermegacraft_hull_red"
+    },
+    "supermegacraft_hull_orange": {
+      "textures": "textures/blocks/supermegacraft_hull_orange"
+    },
+    "supermegacraft_hull_yellow": {
+      "textures": "textures/blocks/supermegacraft_hull_yellow"
+    },
+    "supermegacraft_hull_blue": {
+      "textures": "textures/blocks/supermegacraft_hull_blue"
+    },
+    "supermegacraft_hull_green": {
+      "textures": "textures/blocks/supermegacraft_hull_green"
+    },
+    "supermegacraft_hull_purple": {
+      "textures": "textures/blocks/supermegacraft_hull_purple"
+    },
+    "supermegacraft_hull_pink": {
+      "textures": "textures/blocks/supermegacraft_hull_pink"
+    },
+    "supermegacraft_hull_cyan": {
+      "textures": "textures/blocks/supermegacraft_hull_cyan"
+    },
+    "supermegacraft_hull_lime": {
+      "textures": "textures/blocks/supermegacraft_hull_lime"
+    },
+    "supermegacraft_hull_brown": {
+      "textures": "textures/blocks/supermegacraft_hull_brown"
+    },
+    "supermegacraft_hull_light_blue": {
+      "textures": "textures/blocks/supermegacraft_hull_light_blue"
+    },
+    "supermegacraft_hull_magenta": {
+      "textures": "textures/blocks/supermegacraft_hull_magenta"
+    },
+    "supermegacraft_hull_light_grey": {
+      "textures": "textures/blocks/supermegacraft_hull_light_grey"
+    },
+    "supermegacraft_window": {
+      "textures": "textures/blocks/supermegacraft_window"
+    },
+    "supermegacraft_mega_light": {
+      "textures": "textures/blocks/supermegacraft_mega_light"
+    },
+    "supermegacraft_core_side": {
+      "textures": "textures/blocks/supermegacraft_core_side"
+    },
+    "supermegacraft_core_top": {
+      "textures": "textures/blocks/supermegacraft_core_top"
+    },
+    "supermegacraft_rocket_side": {
+      "textures": "textures/blocks/supermegacraft_rocket_side"
+    },
+    "supermegacraft_rocket_nozzle": {
+      "textures": "textures/blocks/supermegacraft_rocket_nozzle"
+    },
+    "supermegacraft_rocket_side_on": {
+      "textures": "textures/blocks/supermegacraft_rocket_side_on"
+    },
+    "supermegacraft_rocket_nozzle_on": {
+      "textures": "textures/blocks/supermegacraft_rocket_nozzle_on"
+    },
+    "supermegacraft_rocket_top": {
+      "textures": "textures/blocks/supermegacraft_rocket_top"
+    },
+    "supermegacraft_jet_intake": {
+      "textures": "textures/blocks/supermegacraft_jet_intake"
+    },
+    "supermegacraft_jet_exhaust": {
+      "textures": "textures/blocks/supermegacraft_jet_exhaust"
+    },
+    "supermegacraft_jet_exhaust_on": {
+      "textures": "textures/blocks/supermegacraft_jet_exhaust_on"
+    },
+    "supermegacraft_jet_side": {
+      "textures": "textures/blocks/supermegacraft_jet_side"
+    },
+    "supermegacraft_wing_top": {
+      "textures": "textures/blocks/supermegacraft_wing_top"
+    },
+    "supermegacraft_wing_bottom": {
+      "textures": "textures/blocks/supermegacraft_wing_bottom"
+    },
+    "supermegacraft_wing_edge": {
+      "textures": "textures/blocks/supermegacraft_wing_edge"
+    },
+    "supermegacraft_cockpit_front": {
+      "textures": "textures/blocks/supermegacraft_cockpit_front"
+    },
+    "supermegacraft_cockpit_side": {
+      "textures": "textures/blocks/supermegacraft_cockpit_side"
+    },
+    "supermegacraft_cockpit_back": {
+      "textures": "textures/blocks/supermegacraft_cockpit_back"
+    },
+    "supermegacraft_cockpit_top": {
+      "textures": "textures/blocks/supermegacraft_cockpit_top"
+    },
+    "supermegacraft_cockpit_bottom": {
+      "textures": "textures/blocks/supermegacraft_cockpit_bottom"
+    },
+    "supermegacraft_tank_0": {
+      "textures": "textures/blocks/supermegacraft_tank_0"
+    },
+    "supermegacraft_tank_1": {
+      "textures": "textures/blocks/supermegacraft_tank_1"
+    },
+    "supermegacraft_tank_2": {
+      "textures": "textures/blocks/supermegacraft_tank_2"
+    },
+    "supermegacraft_tank_3": {
+      "textures": "textures/blocks/supermegacraft_tank_3"
+    },
+    "supermegacraft_tank_4": {
+      "textures": "textures/blocks/supermegacraft_tank_4"
+    },
+    "supermegacraft_tank_top": {
+      "textures": "textures/blocks/supermegacraft_tank_top"
+    },
+    "supermegacraft_gear_side": {
+      "textures": "textures/blocks/supermegacraft_gear_side"
+    },
+    "supermegacraft_gear_top": {
+      "textures": "textures/blocks/supermegacraft_gear_top"
+    },
+    "supermegacraft_gear_bottom": {
+      "textures": "textures/blocks/supermegacraft_gear_bottom"
+    },
+    "supermegacraft_chute_side": {
+      "textures": "textures/blocks/supermegacraft_chute_side"
+    },
+    "supermegacraft_chute_top": {
+      "textures": "textures/blocks/supermegacraft_chute_top"
+    },
+    "supermegacraft_carbon_hull": {
+      "textures": "textures/blocks/supermegacraft_carbon_hull"
+    },
+    "supermegacraft_armor_plate": {
+      "textures": "textures/blocks/supermegacraft_armor_plate"
+    },
+    "supermegacraft_decoupler_side": {
+      "textures": "textures/blocks/supermegacraft_decoupler_side"
+    },
+    "supermegacraft_decoupler_top": {
+      "textures": "textures/blocks/supermegacraft_decoupler_top"
+    },
+    "supermegacraft_avionics_side": {
+      "textures": "textures/blocks/supermegacraft_avionics_side"
+    },
+    "supermegacraft_avionics_top": {
+      "textures": "textures/blocks/supermegacraft_avionics_top"
+    },
+    "supermegacraft_pod_front": {
+      "textures": "textures/blocks/supermegacraft_pod_front"
+    },
+    "supermegacraft_pod_side": {
+      "textures": "textures/blocks/supermegacraft_pod_side"
+    },
+    "supermegacraft_radar_top": {
+      "textures": "textures/blocks/supermegacraft_radar_top"
+    },
+    "supermegacraft_radar_side": {
+      "textures": "textures/blocks/supermegacraft_radar_side"
+    },
+    "supermegacraft_radar_bottom": {
+      "textures": "textures/blocks/supermegacraft_radar_bottom"
+    },
+    "supermegacraft_vtol_top": {
+      "textures": "textures/blocks/supermegacraft_vtol_top"
+    },
+    "supermegacraft_vtol_side": {
+      "textures": "textures/blocks/supermegacraft_vtol_side"
+    },
+    "supermegacraft_vtol_nozzle": {
+      "textures": "textures/blocks/supermegacraft_vtol_nozzle"
+    },
+    "supermegacraft_vtol_nozzle_on": {
+      "textures": "textures/blocks/supermegacraft_vtol_nozzle_on"
+    },
+    "supermegacraft_burner_front": {
+      "textures": "textures/blocks/supermegacraft_burner_front"
+    },
+    "supermegacraft_burner_side": {
+      "textures": "textures/blocks/supermegacraft_burner_side"
+    },
+    "supermegacraft_burner_exhaust": {
+      "textures": "textures/blocks/supermegacraft_burner_exhaust"
+    },
+    "supermegacraft_burner_exhaust_on": {
+      "textures": "textures/blocks/supermegacraft_burner_exhaust_on"
+    },
+    "supermegacraft_neutronium_hull": {
+      "textures": "textures/blocks/supermegacraft_neutronium_hull"
+    },
+    "supermegacraft_reactor_side": {
+      "textures": "textures/blocks/supermegacraft_reactor_side"
+    },
+    "supermegacraft_reactor_top": {
+      "textures": "textures/blocks/supermegacraft_reactor_top"
+    },
+    "supermegacraft_warp_side": {
+      "textures": "textures/blocks/supermegacraft_warp_side"
+    },
+    "supermegacraft_warp_top": {
+      "textures": "textures/blocks/supermegacraft_warp_top"
+    },
+    "supermegacraft_shield_side": {
+      "textures": "textures/blocks/supermegacraft_shield_side"
+    },
+    "supermegacraft_shield_top": {
+      "textures": "textures/blocks/supermegacraft_shield_top"
+    },
+    "supermegacraft_cannon_side": {
+      "textures": "textures/blocks/supermegacraft_cannon_side"
+    },
+    "supermegacraft_cannon_top": {
+      "textures": "textures/blocks/supermegacraft_cannon_top"
+    },
+    "supermegacraft_cannon_bottom": {
+      "textures": "textures/blocks/supermegacraft_cannon_bottom"
+    },
+    "supermegacraft_bridge_front": {
+      "textures": "textures/blocks/supermegacraft_bridge_front"
+    },
+    "supermegacraft_bridge_side": {
+      "textures": "textures/blocks/supermegacraft_bridge_side"
+    },
+    "supermegacraft_bridge_top": {
+      "textures": "textures/blocks/supermegacraft_bridge_top"
+    },
+    "supermegacraft_bridge_bottom": {
+      "textures": "textures/blocks/supermegacraft_bridge_bottom"
+    },
+    "supermegacraft_titan_side": {
+      "textures": "textures/blocks/supermegacraft_titan_side"
+    },
+    "supermegacraft_titan_nozzle": {
+      "textures": "textures/blocks/supermegacraft_titan_nozzle"
+    },
+    "supermegacraft_titan_side_on": {
+      "textures": "textures/blocks/supermegacraft_titan_side_on"
+    },
+    "supermegacraft_titan_nozzle_on": {
+      "textures": "textures/blocks/supermegacraft_titan_nozzle_on"
+    },
+    "supermegacraft_titan_top": {
+      "textures": "textures/blocks/supermegacraft_titan_top"
+    },
+    "supermegacraft_ion_front": {
+      "textures": "textures/blocks/supermegacraft_ion_front"
+    },
+    "supermegacraft_ion_side": {
+      "textures": "textures/blocks/supermegacraft_ion_side"
+    },
+    "supermegacraft_ion_exhaust": {
+      "textures": "textures/blocks/supermegacraft_ion_exhaust"
+    },
+    "supermegacraft_ion_exhaust_on": {
+      "textures": "textures/blocks/supermegacraft_ion_exhaust_on"
+    },
+    "supermegacraft_repulsor_side": {
+      "textures": "textures/blocks/supermegacraft_repulsor_side"
+    },
+    "supermegacraft_repulsor_top": {
+      "textures": "textures/blocks/supermegacraft_repulsor_top"
+    },
+    "supermegacraft_repulsor_pad": {
+      "textures": "textures/blocks/supermegacraft_repulsor_pad"
+    },
+    "supermegacraft_repulsor_pad_on": {
+      "textures": "textures/blocks/supermegacraft_repulsor_pad_on"
+    }
+  }
+}

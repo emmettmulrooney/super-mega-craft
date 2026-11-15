@@ -1,0 +1,26 @@
+{
+  "format_version": "1.21.40",
+  "minecraft:block": {
+    "description": {
+      "identifier": "supermegacraft:neutronium_hull",
+      "menu_category": {
+        "category": "construction"
+      }
+    },
+    "components": {
+      "minecraft:display_name": "tile.supermegacraft:neutronium_hull.name",
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 0.8
+      },
+      "minecraft:destructible_by_explosion": {
+        "explosion_resistance": 30
+      },
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "supermegacraft_neutronium_hull",
+          "render_method": "opaque"
+        }
+      }
+    }
+  }
+}
